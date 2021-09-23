@@ -25,7 +25,7 @@ i = h
 i[0] = 4
 print(h,i)
 
-# tuple
+# tuple -> immutable by design
 j = ("apple", "banana", "cherry")
 k = j
 k[0] = "kiwi"
