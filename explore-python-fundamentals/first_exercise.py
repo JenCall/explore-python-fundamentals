@@ -7,7 +7,7 @@ b = a
 b = 5
 print(a,b)
 
-# float
+# float -> immutable
 c = 9.5
 d = c
 d = 10.5
