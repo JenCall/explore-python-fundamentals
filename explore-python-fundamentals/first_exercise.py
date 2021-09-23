@@ -37,7 +37,6 @@ l = {
   "model": "Mustang",
   "year": 1964
 }
-
 m = l
 m["brand"] = {"tesla"}
 print(l,m)
