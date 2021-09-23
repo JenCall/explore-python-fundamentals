@@ -13,7 +13,7 @@ d = c
 d = 10.5
 print(c,d)
 
-# str
+# str -> immutable
 f = "Hello"
 g = f
 g = "World"
