@@ -1,7 +1,7 @@
 # Variables
 # Explore the Problem with Immutable vs. Mutable Objects
 
-# integer
+# integer -> immutable
 a = 8
 b = a
 b = 5
