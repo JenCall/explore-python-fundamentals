@@ -31,7 +31,7 @@ k = j
 k[0] = "kiwi"
 print(j,k)
 
-# dict
+# dict -> mutable
 l = {
   "brand": "Ford",
   "model": "Mustang",
@@ -39,5 +39,5 @@ l = {
 }
 
 m = l
-m[0] = {"hello":"world"}
+m["brand"] = {"tesla"}
 print(l,m)
