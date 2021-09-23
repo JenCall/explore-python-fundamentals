@@ -19,7 +19,7 @@ g = f
 g = "World"
 print(f,g)
 
-# list
+# list -> mutable
 h = [1,2,3]
 i = h
 i[0] = 4
