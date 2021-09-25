@@ -6,6 +6,8 @@ a = 8
 b = a
 b = 5
 print(a,b)
+print(id(a))
+print(id(b))
 
 # float -> immutable
 c = 9.5
