@@ -48,3 +48,6 @@ l = {
 m = l
 m["brand"] = {"tesla"}
 print(l,m)
+print(id(l))
+print(id(m))
+# l and m share same ids
