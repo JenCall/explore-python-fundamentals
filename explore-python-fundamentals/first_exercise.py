@@ -22,6 +22,8 @@ f = "Hello"
 g = f
 g = "World"
 print(f,g)
+print(id(f))
+print(id(g))
 
 # list -> mutable
 h = [1,2,3]
