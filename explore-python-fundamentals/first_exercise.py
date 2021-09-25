@@ -30,6 +30,8 @@ h = [1,2,3]
 i = h
 i[0] = 4
 print(h,i)
+print(id(h))
+print(id(i)) # same id as h
 
 # tuple -> immutable by design
 j = ("apple", "banana", "cherry")
