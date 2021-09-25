@@ -14,6 +14,8 @@ c = 9.5
 d = c
 d = 10.5
 print(c,d)
+print(id(c))
+print(id(d))
 
 # str -> immutable
 f = "Hello"
